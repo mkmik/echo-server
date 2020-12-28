@@ -1,4 +1,4 @@
-FROM mkmik/debian-base-buildpack:buster-r1 as build
+FROM gcr.io/bitnami-labs/debian-base-buildpack:buster-r1 as build
 
 RUN mkdir -p /src
 WORKDIR /src
