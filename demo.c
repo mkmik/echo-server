@@ -13,7 +13,7 @@
 #define DEFAULT_PORT 1234
 #define MAX_CONN 16
 #define MAX_EVENTS 32
-#define BUF_SIZE 16
+#define BUF_SIZE 64
 #define MAX_LINE 256
 
 void server_run();
